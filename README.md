@@ -1,2 +1,2 @@
 # Magang_ALA
-penyimpanan file magang ala
+membuat web server menggunakan wordpress (vagrant)
