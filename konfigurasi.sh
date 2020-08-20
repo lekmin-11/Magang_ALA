@@ -19,7 +19,7 @@ echo "add user to databases"
 sudo mysql -uroot -e "grant all privileges on $DBNAME.* to '$DBUSER'@'localhost' identified by '$DBPASSWD'"
 
 echo "copy file web.conf"
-sudo cp /vagrant/config/web.conf /etc/apache2/sites-available/
+sudo cp /vagrant/web.conf /etc/apache2/sites-available/
 echo "enable web.conf"
 sudo a2ensite web.conf
 sudo systemctl restart apache2
